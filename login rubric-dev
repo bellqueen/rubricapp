@@ -13,5 +13,20 @@ update:
 rsync -av --progress --no-perms --no-owner --no-group --omit-dir-times rubricapp/building_user_login_system-master/finish/ /var/www/wsgi-scripts/rubric
 rsync -av --progress --no-perms --no-owner --no-group --omit-dir-times $HOME/rubricapp/building_user_login_system-master/finish/ /var/www/wsgi-scripts/rubric
 
+  change the timestamp:
+  touch app.py
+
+
 history log:
 less /var/log/httpd/rubric.cs.uiowa.edu-ssl_error_ssl.log
+
+
+database: 
+mysql --password --user=runqzhao rubric
+or
+mysql --password --user=bdmeyers rubric
+
+  
+  password: 
+  NeK5dw6*SQNc*X@
+
