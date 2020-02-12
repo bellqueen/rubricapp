@@ -15,7 +15,9 @@ rsync -av --progress --no-perms --no-owner --no-group --omit-dir-times $HOME/rub
 
   change the timestamp:
   touch app.py
-
+  (Tells apache that the application files are updated
+  not necessary if you edited app.py though
+  )
 
 history log:
 less /var/log/httpd/rubric.cs.uiowa.edu-ssl_error_ssl.log
